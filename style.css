@@ -1,68 +1,151 @@
 /* shared area */
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-body{
-    font-family: 'Roboto Condensed', sans-serif;
+body {
+  font-family: "Roboto Condensed", sans-serif;
 }
 header {
-    background-image: url(images/banner/banner3.png);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100vh;
-    margin-bottom: 70px;
+  background-image: url(images/banner/banner3.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 70px;
 }
 .btn-primary {
-    background: white;
-    color: #005FAC;
-    padding: 10px;
-    border-radius: 5px;
-    font-weight: 600;
-    font-size: 17px;
+  background: white;
+  color: #005fac;
+  padding: 13px 25px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 17px;
+  border: none;
 }
-.section-des{
-    margin: 20px 0;
-    font-size: 16px;
+.section-des {
+  margin: 20px 0;
+  font-size: 15px;
 }
 .text-area {
-    font-size: 55px;
-    font-size: 650;
+  font-size: 55px;
+  font-size: 650;
 }
 /* box area */
 .container {
-    display: flex;
-    text-align: right;
-    margin: auto 0 auto auto;
-    width: 600px;
-    color: white;
+  display: flex;
+  text-align: right;
+  margin: auto 0 auto auto;
+  width: 600px;
+  color: white;
 }
 .container div {
-    padding: 216px 214px 0 0;
-    font-size: 23px;
+  padding: 216px 214px 0 0;
+  font-size: 23px;
 }
 /* failure section */
 main {
-    padding-left: 150px;
-    padding-right: 150px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
-.text-area2{
-    font-size: 45px;
-    font-size: 550;
+.text-area2 {
+  font-size: 45px;
+  font-size: 550;
 }
 .failure-sec {
-    display: flex;
-    margin-bottom: 50px;
+  display: flex;
+  margin-bottom: 50px;
 }
 .failure-words {
-    margin: auto 60px auto auto;
-    width: 350px;
+  margin: auto 60px auto auto;
+  width: 350px;
 }
 .failure-img img {
-    height: 540px;
-    padding-left: 60px;
+  height: 540px;
+  padding-left: 60px;
 }
 .diveee {
-    line-height: 1.5;
+  line-height: 1.5;
+}
+.diveee img,
+p {
+  display: flex;
+}
+/* plan section */
+.plan-text {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.plan-sec {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.container2 {
+  background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
+    url(images/watch.png);
+  height: 300px;
+  border-radius: 8px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.mindset-cls {
+  align-items: center;
+  text-align: left;
+  margin-left: 130px;
+  padding: 70px 0 0 0;
+}
+.text-area3 {
+  font-weight: 700;
+  width: 450px;
+  font-size: 40px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+/* footer */
+footer {
+  background: var(--dark-01, #151414);
+  height: 400px;
+  padding: 50px 100px;
+  color: #fff;
+}
+.section-info {
+  width: 486px;
+  margin-top: 110px;
+}
+.footer-sec1 {
+  text-align: left;
+  color: #fff;
+}
+.footer-sec3 {
+  margin-top: 110px;
+}
+.sec-cls {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-input {
+  margin: 10px 0;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.lst-mg {
+  margin: 15px;
+}
+.btn-primary2 {
+  background-color: #005fac;
+  color: white;
+  padding: 13px 25px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 17px;
+  border: none;
+}
+.h2-title-lst {
+  color: #f8f8f8;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
