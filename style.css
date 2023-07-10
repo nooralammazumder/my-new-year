@@ -1,0 +1,68 @@
+/* shared area */
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header {
+    background-image: url(images/banner/banner3.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 70px;
+}
+.btn-primary {
+    background: white;
+    color: #005FAC;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 17px;
+}
+.section-des{
+    margin: 20px 0;
+    font-size: 16px;
+}
+.text-area {
+    font-size: 55px;
+    font-size: 650;
+}
+/* box area */
+.container {
+    display: flex;
+    text-align: right;
+    margin: auto 0 auto auto;
+    width: 600px;
+    color: white;
+}
+.container div {
+    padding: 216px 214px 0 0;
+    font-size: 23px;
+}
+/* failure section */
+main {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.text-area2{
+    font-size: 45px;
+    font-size: 550;
+}
+.failure-sec {
+    display: flex;
+    margin-bottom: 50px;
+}
+.failure-words {
+    margin: auto 60px auto auto;
+    width: 350px;
+}
+.failure-img img {
+    height: 540px;
+    padding-left: 60px;
+}
+.diveee {
+    line-height: 1.5;
+}
